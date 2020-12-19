@@ -1,0 +1,17 @@
+##init information
+git config --global user.email "expeliamus3015@gmail.com"
+git config --global user.name "expeliamus3015"
+##get status
+git status
+##report to git that we have add some changes
+git add .
+##report to git that we commit the changes
+git commit -m ""
+##push all changes to git server
+git push
+## .gitignore 
+*.exe
+
+git rm -rf --cached .
+
+git add .
